@@ -276,6 +276,7 @@ def main():
         print("""A tool for converting between USEFS and iCalendar files.
 Usage: usefs_ics 2ICS <usefs_file> <output_file.ics> <file_type: yaml, toml, or json> [--timezone <timezone>]
        usefs_ics 2USEFS <ics_file> <output_file> [output_type: json, yaml, toml]""")
+        input("按下任意键继续...")
         sys.exit(1)
 
 # Helper function to parse duration strings

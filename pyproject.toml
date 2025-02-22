@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "USEFS_ICS" 
-version = "0.1.0" 
+version = "0.1.1" 
 description = "A tool for converting between USEFS and iCalendar files."
 authors = [{ name = "SRInternet", email = "srinternet@qq.com" }] 
 license = { file = "LICENSE" }
@@ -29,8 +29,8 @@ dev = ["pytest"]
 usefs_ics = "USEFS_ICS:main"  # usefs_ics -> USEFS_ICS/__init__.main
 
 [project.urls]
-homepage = "https://github.com/SRInternet/USEFS_ICS"
-repository = "https://github.com/SRInternet/USEFS_ICS"
+homepage = "https://github.com/SRON-org/USEFS_ICS"
+repository = "https://github.com/SRON-org/USEFS_ICS"
 
 [tool.setuptools.packages.find]  # 自动查找包
 where = ["."]
